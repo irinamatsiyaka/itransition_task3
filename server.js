@@ -37,5 +37,7 @@ app.get('/irinamaciaka_gmail_com', (req, res) => {
     res.send(result.toString());
 });
 
-// Запускаем сервер на порту 3000 (локально)
 const PORT = process.env.PORT || 3000;
+app.listen(PORT, '0.0.0.0', () => {
+    
+});
